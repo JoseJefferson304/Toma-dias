@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 21vw;
+  height: 100vh;
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside li {
+  list-style-type: none;
+}
+
+body {
+  width: 79vw;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 20px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+hr {
+  width: 98%;
+  border: 1px solid rgb(233, 233, 233);
+}
+
+main {
+  margin: 30px 30px;
+}
+
+ul, li {
+  width: 80%;
+}
+
+ul {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.top {
+  line-height: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.top h1 {
+  font-size: 30px;
+}
+
+.top img {
+  height: 50px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+  font-size: 14px;
+  color: gray;
+}
+
+input[type=text] {
+  width: 83%;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #FDB515;
+  border-radius: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+input[type=number] {
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #FDB515;
+  border-radius: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.cronometro {
+  margin: 30px auto;
+  width: 100%;
+  height: 10px;
+  border-radius: 500px;
+  background-color: black;
+}
+
+.barra {
+    height: 1%;
+    border-radius: 10px;
+    background-color: #FDB515;
+    position: absolute;
+  }
+
+.principal {
+  display: flex;
+  flex-direction: column;
+}
+
+.principal h1 {
+  font-size: 40px;
+}
+
+.embaixo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #FDB515;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out
+}
+
+.embaixo button:hover {
+  background-color: #e0a015;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.tarefa {
+  border: 1px solid #FDB515;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tarefa input {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.riscado {
+  text-decoration: line-through;
+}
+
+input {
+  font-style: 'Inter', sans-serif;
+}
